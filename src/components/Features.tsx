@@ -1,6 +1,5 @@
 import { Button } from "./ui/button"
 import Feature1 from "./Feature1"
-import { motion, useScroll,useInView } from 'framer-motion'
 import { useRef, useState } from "react"
 const contents = [{ label: "Buying" }, { label: "Reordering" }, { label: "Rebalancing" }, { label: "Channels" }]
 
