@@ -1,5 +1,5 @@
 import { useInView ,motion} from 'framer-motion';
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect,  } from 'react'
 
 export default function FeatureWrapper({children,onViewChange,index,innerRef}:{children:React.ReactNode,onViewChange:any,index:number,innerRef:any}) {
     const isInView= useInView(innerRef)

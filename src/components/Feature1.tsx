@@ -1,5 +1,4 @@
 
-import { useRef, useState } from "react";
 import FeatureWrapper from "./FeatureWrapper";
 
 export default function Feature1({onViewChange,refs}:any) {
